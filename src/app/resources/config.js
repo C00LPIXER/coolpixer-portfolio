@@ -20,7 +20,8 @@ const routes = {
 // Enable password protection on selected routes
 // Set password in pages/api/authenticate.ts
 const protectedRoutes = {
-  "/work/automate-design-handovers-with-a-figma-to-code-pipeline": false,
+  "/blog/that-one-person": true,
+  // "/blog/that-one-person": false,
 };
 
 const effects = {
