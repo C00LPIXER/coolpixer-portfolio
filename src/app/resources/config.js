@@ -1,4 +1,4 @@
-const baseURL = "demo.magic-portfolio.com";
+const baseURL = "coolpixer-portfolio.com";
 
 // Enable localization
 const i18n = false;
@@ -20,7 +20,7 @@ const routes = {
 // Enable password protection on selected routes
 // Set password in pages/api/authenticate.ts
 const protectedRoutes = {
-  "/work/automate-design-handovers-with-a-figma-to-code-pipeline": true,
+  "/work/automate-design-handovers-with-a-figma-to-code-pipeline": false,
 };
 
 const effects = {
@@ -61,7 +61,7 @@ const mailchimp = {
   effects: {
     mask: "topRight", // none | cursor | topLeft | topRight | bottomLeft | bottomRight
     gradient: {
-      display: true,
+      display: false,
       opacity: 0.6, // 0 - 1
     },
     dots: {

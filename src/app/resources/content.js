@@ -221,12 +221,12 @@ const about = {
           </>
         ),
         images: [
-          {
-            src: "/images/projects/project-01/soc.png",
-            alt: "Cybersecurity skills",
-            width: 8,
-            height: 6,
-          },
+          // {
+          //   src: "/images/projects/project-01/soc.png",
+          //   alt: "Cybersecurity skills",
+          //   width: 8,
+          //   height: 6,
+          // },
         ],
       },
       {
@@ -264,31 +264,130 @@ const about = {
           },
         ],
       },
+      {
+        title: "LeetCode Badge",
+        description: (
+          <>
+            A showcase of my achievements on LeetCode, demonstrating
+            problem-solving skills and proficiency in data structures and
+            algorithms.
+            <br />
+            <br /> Explore my LeetCode profile to learn more:&nbsp;
+            <a
+              href="https://leetcode.com/u/kr_i_s_h__/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              My LeetCode Profile
+            </a>
+            .
+          </>
+        ),
+        images: [
+          {
+            src: "/images/projects/project-01/2024-50-lg.png", 
+            alt: "LeetCode Badge",
+            width: 6,
+            height: 6,
+          },
+        ],
+      },
+      {
+        title: "TryHackMe Badges",
+        description: (
+          <>
+            A showcase of TryHackMe badges earned through hands-on challenges,
+            demonstrating skills in cybersecurity areas such as web security,
+            OSINT, Linux, and defensive security.
+            <br />
+            <br /> Explore my TryHackMe profile to learn more:&nbsp;
+            <a
+              href="https://tryhackme.com/r/p/coolpixer"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              My TryHackMe Profile
+            </a>
+            .
+          </>
+        ),
+        images: [
+          {
+            src: "/images/projects/project-01/owasptop10.svg",
+            alt: "Cybersecurity skills",
+            width: 6,
+            height: 6,
+          },
+          {
+            src: "/images/projects/project-01/ohsint.svg",
+            alt: "Cybersecurity skills",
+            width: 6,
+            height: 6,
+          },
+          {
+            src: "/images/projects/project-01/linux.svg",
+            alt: "Cybersecurity skills",
+            width: 6,
+            height: 6,
+          },
+          {
+            src: "/images/projects/project-01/blue.svg",
+            alt: "Cybersecurity skills",
+            width: 6,
+            height: 6,
+          },
+          {
+            src: "/images/projects/project-01/hashcracker.svg",
+            alt: "Cybersecurity skills",
+            width: 6,
+            height: 6,
+          },
+          {
+            src: "/images/projects/project-01/mrrobot.svg",
+            alt: "Cybersecurity skills",
+            width: 6,
+            height: 6,
+          },
+          {
+            src: "/images/projects/project-01/linuxprivesc.svg",
+            alt: "Cybersecurity skills",
+            width: 6,
+            height: 6,
+          },
+          {
+            src: "/images/projects/project-01/introtosecurityengineering.svg",
+            alt: "Cybersecurity skills",
+            width: 6,
+            height: 6,
+          },
+          {
+            src: "/images/projects/project-01/webbed.svg",
+            alt: "Cybersecurity skills",
+            width: 6,
+            height: 6,
+          },
+        ],
+      },
     ],
   },
 };
 
 const blog = {
   label: "Blog",
-  title: "Writing about design and tech...",
+  title: "",
   description: `Read what ${person.name} has been up to recently`,
-  // Create new blog posts by adding a new .mdx file to app/blog/posts
-  // All posts will be listed on the /blog route
 };
 
 const work = {
   label: "Work",
   title: "My projects",
   description: `Design and dev projects by ${person.name}`,
-  // Create new project pages by adding a new .mdx file to app/blog/posts
-  // All projects will be listed on the /home and /work routes
 };
 
 const gallery = {
   label: "Gallery",
   title: "My photo gallery",
   description: `A photo collection by ${person.name}`,
-  // Images from https://pexels.com
   images: [
     {
       src: "/images/gallery/img-01.jpg",
