@@ -1,4 +1,4 @@
-const baseURL = "coolpixer-portfolio.com";
+const baseURL = "www.amalkrishna.tech";
 
 // Enable localization
 const i18n = false;
@@ -17,11 +17,9 @@ const routes = {
   "/gallery": false,
 };
 
-// Enable password protection on selected routes
 // Set password in pages/api/authenticate.ts
 const protectedRoutes = {
   "/blog/that-one-person": true,
-  // "/blog/that-one-person": false,
 };
 
 const effects = {
