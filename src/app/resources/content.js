@@ -366,6 +366,12 @@ const about = {
             width: 6,
             height: 6,
           },
+          {
+            src: "/images/projects/project-01/introtooffensivesecurity.svg",
+            alt: "Cybersecurity skills",
+            width: 6,
+            height: 6,
+          },
         ],
       },
     ],
