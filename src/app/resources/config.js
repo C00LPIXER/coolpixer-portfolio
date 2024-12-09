@@ -19,7 +19,7 @@ const routes = {
 
 // Set password in pages/api/authenticate.ts
 const protectedRoutes = {
-  "/blog/that-one-person": true,
+  "/blog/a-beautiful-chapter-in-my-life": true,
 };
 
 const effects = {
@@ -38,28 +38,16 @@ const effects = {
   },
 };
 
-// const style = {
-//   theme: "dark", // dark | light
-//   neutral: "gray", // sand | gray | slate
-//   brand: "emerald", // blue | indigo | violet | magenta | pink | red | orange | yellow | moss | green | emerald | aqua | cyan
-//   accent: "indigo", // blue | indigo | violet | magenta | pink | red | orange | yellow | moss | green | emerald | aqua | cyan
-//   solid: "contrast", // color | contrast
-//   solidStyle: "flat", // flat | plastic
-//   border: "playful", // rounded | playful | conservative
-//   surface: "translucent", // filled | translucent
-//   transition: "all", // all | micro | macro
-// };
-
 const style = {
-  theme: "dark",
-  neutral: "gray", 
-  brand: "orange", 
-  accent: "indigo",
-  solid: "color",
-  solidStyle: "flat",
-  border: "rounded",
-  surface: "translucent",
-  transition: "macro",
+  theme: "dark", // dark | light
+  neutral: "gray", // sand | gray | slate
+  brand: "emerald", // blue | indigo | violet | magenta | pink | red | orange | yellow | moss | green | emerald | aqua | cyan
+  accent: "indigo", // blue | indigo | violet | magenta | pink | red | orange | yellow | moss | green | emerald | aqua | cyan
+  solid: "contrast", // color | contrast
+  solidStyle: "flat", // flat | plastic
+  border: "playful", // rounded | playful | conservative
+  surface: "translucent", // filled | translucent
+  transition: "all", // all | micro | macro
 };
 
 
