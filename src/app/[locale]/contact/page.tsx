@@ -18,43 +18,43 @@ interface SocialLink {
 const socialLinks: SocialLink[] = [
   {
     icon: FaGithub,
-    url: 'https://github.com/yourusername',
+    url: 'https://github.com/C00lPIXER',
     label: 'GitHub',
     platform: 'github'
   },
   {
     icon: FaLinkedin,
-    url: 'https://linkedin.com/in/yourusername',
+    url: 'https://www.linkedin.com/in/amalkrishanp/',
     label: 'LinkedIn',
     platform: 'linkedin'
   },
   {
     icon: FaYoutube,
-    url: 'https://youtube.com/@yourusername',
+    url: 'https://www.youtube.com/@living_aquatic_',
     label: 'YouTube',
     platform: 'youtube'
   },
   {
     icon: FaInstagram,
-    url: 'https://instagram.com/yourusername',
+    url: 'https://www.instagram.com/kr_i_s_h__/',
     label: 'Instagram',
     platform: 'instagram'
   },
   {
     icon: SiLeetcode,
-    url: 'https://leetcode.com/yourusername',
+    url: 'https://leetcode.com/u/kr_i_s_h__/',
     label: 'LeetCode',
     platform: 'leetcode'
   },
   {
     icon: SiTryhackme,
-    url: 'https://tryhackme.com/p/yourusername',
+    url: 'https://tryhackme.com/r/p/coolpixer',
     label: 'TryHackMe',
     platform: 'tryhackme'
   },
   {
     icon: FaWhatsapp,
-    url: 'https://wa.me/yournumber',
+    url: 'https://wa.me/9778574627',
     label: 'WhatsApp',
     platform: 'whatsapp'
   }
@@ -96,7 +96,6 @@ export default function ContactPage() {
       message: '',
     };
 
-    // Name validation (2-50 characters, letters and spaces only)
     const nameRegex = /^[A-Za-z\s]{2,50}$/;
     if (!formData.name.trim()) {
       newErrors.name = 'Name is required';
@@ -106,7 +105,6 @@ export default function ContactPage() {
       isValid = false;
     }
 
-    // Email validation (proper email format)
     const emailRegex = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,6}$/;
     if (!formData.email.trim()) {
       newErrors.email = 'Email is required';
@@ -116,7 +114,6 @@ export default function ContactPage() {
       isValid = false;
     }
 
-    // Message validation (10-500 characters)
     if (!formData.message.trim()) {
       newErrors.message = 'Message is required';
       isValid = false;
@@ -138,7 +135,6 @@ export default function ContactPage() {
       ...prev,
       [name]: value,
     }));
-    // Clear error when user starts typing
     if (errors[name as keyof typeof errors]) {
       setErrors(prev => ({
         ...prev,
@@ -293,7 +289,7 @@ export default function ContactPage() {
         }}
       >
         <h2 className={`text-2xl font-bold ${isMobile ? 'text-center' : ''}`}>
-          {isMobile ? 'Contact Form' : 'Send Me a Message'}
+          {isMobile ? 'Send a Message' : 'Send Me a Message'}
         </h2>
         <form onSubmit={handleSubmit} style={{ width: '100%' }}>
           <Flex direction="column" gap="16">
