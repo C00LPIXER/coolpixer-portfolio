@@ -148,14 +148,14 @@ export const Header = () => {
                   </Flex>
                 </ToggleButton>
               )}
-              {routes["/gallery"] && (
+              {routes["/contact"] && (
                 <ToggleButton
-                  prefixIcon="gallery"
-                  href={`/${params?.locale}/gallery`}
-                  selected={pathname.startsWith("/gallery")}
+                  prefixIcon="email"
+                  href={`/${params?.locale}/contact`}
+                  selected={pathname.startsWith("/contact")}
                 >
                   <Flex paddingX="2" hide="s">
-                    {gallery.label}
+                    Contact
                   </Flex>
                 </ToggleButton>
               )}

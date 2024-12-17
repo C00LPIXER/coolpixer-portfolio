@@ -15,6 +15,7 @@ const routes = {
   "/work": true,
   "/blog": true,
   "/gallery": false,
+  "/contact": true,
 };
 
 // Set password in pages/api/authenticate.ts
